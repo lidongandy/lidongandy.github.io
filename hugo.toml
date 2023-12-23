@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '新闻网站'
+theme = 'ananke'
+hasCJKLanguage = true
+summaryLength = 0
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+
